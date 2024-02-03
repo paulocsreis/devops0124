@@ -12,7 +12,7 @@ pipeline {
             steps {
                 script {
                     // Nome das imagens
-                    def imageNameWeb = '/paulocsreis/web'
+                    def imageNameWeb = 'paulocsreis/web'
                     def imageNameDB = 'paulocsreis/db'
                     def imageNameNginx = 'paulocsreis/nginx'
 
